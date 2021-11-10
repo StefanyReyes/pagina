@@ -1,5 +1,24 @@
 @import url(./precios.scss);
+@import url(./fijas.scss);
 
+.cargando{
+    background-color: rgb(255, 255, 255); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 100000;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.cargando img{
+    transition: all 3s;
+    height: 100px;
+}
 
 .main-inicio{
     @apply flex;
@@ -226,31 +245,6 @@
                     }
                 }
             }
-        }
-
-    }
-
-    .footer{
-        @apply flex;
-        @apply flex-col;
-        @apply justify-center;
-        @apply items-center;
-
-        .hagamos{
-            font-family: 'Quicksand';
-            font-weight: 400;
-            font-size: 40px;
-
-            span{
-                font-weight: 700;
-                font-family: 'Quicksand';
-            }
-        }
-
-        .derechos{
-            line-height: 1;
-            font-weight: 300;
-            font-size: 14px;
         }
 
     }

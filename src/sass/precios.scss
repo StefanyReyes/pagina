@@ -1,21 +1,3 @@
-.cargando{
-    background-color: rgb(255, 255, 255); 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100vw; 
-    height: 100vh; 
-    z-index: 100000;
-    display: flex;   
-    justify-content: center;
-    align-items: center;
-    transition: all 3s;
-}
-
-.cargando img{
-    transition: all 3s;
-    height: 100px;
-}
 
 .main-precios{
     @apply flex;
@@ -41,15 +23,94 @@
             @apply h-96;
             opacity: 0.1;
             @apply z-10;
-
             @media (min-width: 768px) {
                 height: 350px;
             }
-
             @media (min-width: 1024px) {
                 height: 450px;
             }
+        }
 
+        .logo img{
+                max-height: 70px;
+                @apply mb-16;
+                
+                @media (min-width: 640px) {
+                    max-height: 120px;
+                }
+        }
+
+        .saludo{
+            @apply flex;
+            @apply flex-col;
+            @apply items-center;
+
+
+            & span{
+                font-size: 16px;
+            }
+
+
+            & p{
+                text-align: center;
+                line-height: 1;
+                font-size: 40px;
+                font-weight: 600;
+                @apply mb-16;
+            }
+        }
+
+        .seleccion{
+            display: flex;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 500;
+            background-color: white;
+            width: max-content;
+            height: max-content;
+            @apply mb-16;
+            & a{
+                padding: 8px 50px;
+                border-radius: 50px;
+            }
+            .noCheck{
+                background-color: white;
+                color: black;
+            }
+            .check{
+                background-color: black;
+                color: white;
+            }
+        }
+        
+    }
+
+    .cards{
+        width: 100%;
+    }
+
+    .footer{
+        margin-top: 30px;
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+        @apply items-center;
+
+        .hagamos{
+            font-family: 'Quicksand';
+            font-weight: 400;
+            font-size: 40px;
+
+            span{
+                font-weight: 700;
+                font-family: 'Quicksand';
+            }
+        }
+
+        .derechos{
+            line-height: 1;
+            font-weight: 300;
+            font-size: 14px;
         }
 
     }

@@ -16,11 +16,10 @@ export default {
   },
 
       mounted() {
-        // let vm = this;
-        // setTimeout(function(){
-        //       vm.cargando = false;
-        //   },500)
-        this.cargando = false;
+      let vm = this;
+      setTimeout(function(){
+            vm.cargando = false;
+        },500)
       },
 
 }
