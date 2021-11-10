@@ -1,0 +1,57 @@
+.cargando{
+    background-color: rgb(255, 255, 255); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 100000;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.cargando img{
+    transition: all 3s;
+    height: 100px;
+}
+
+.main-precios{
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply items-center;
+    @apply h-full;
+    @apply w-full;
+
+    .contenedor{
+    @apply container;
+    @apply p-3;
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply items-center;
+
+
+        .icono img{
+            @apply absolute;
+            top: 0;
+            left: 0;
+            @apply h-96;
+            opacity: 0.1;
+            @apply z-10;
+
+            @media (min-width: 768px) {
+                height: 350px;
+            }
+
+            @media (min-width: 1024px) {
+                height: 450px;
+            }
+
+        }
+
+    }
+
+}

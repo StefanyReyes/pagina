@@ -5,4 +5,5 @@ import store from "./store";
 import "./sass/app.scss";
 import './styles/app.css';
 
+
 createApp(App).use(store).use(router).mount("#app");
