@@ -17,9 +17,9 @@
             <p>Estás protesis cuentan con un año de garantía</p>
             </div>
             <div class="quiero">
-                <button @click="sabermas(tarjeta.titulo)">
+                <a :href="mensaje" @click="sabermas(tarjeta.titulo)">
                     Quiero saber más
-                </button>
+                </a>
                 </div>
         </div>
     </div>
@@ -29,6 +29,7 @@
 export default {
     data() {
         return {
+            saber:"",
             tarjetas:[
                 {
                     id:1,
@@ -126,8 +127,15 @@ export default {
 
     methods: {
         sabermas(titulo){
-            console.log(titulo)
+            this.saber = titulo
+            console.log(this.saber)
         }
     },
+
+    computed:{
+        mensaje(){
+            return "https://wa.me/573214661647/?text=Te amo mucho vida" + this.saber
+        }
+    }
 }
 </script>

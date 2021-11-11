@@ -8,8 +8,9 @@
     @apply w-full;
 
     .contenedor{
+    @apply mt-8;
     @apply container;
-    @apply p-3;
+    @apply p-6;
     @apply flex;
     @apply flex-col;
     @apply justify-center;
@@ -34,7 +35,7 @@
         .logo img{
                 max-height: 70px;
                 @apply mb-16;
-                
+                @apply z-20;
                 @media (min-width: 640px) {
                     max-height: 120px;
                 }
@@ -44,7 +45,7 @@
             @apply flex;
             @apply flex-col;
             @apply items-center;
-
+            @apply z-20;
 
             & span{
                 font-size: 16px;
@@ -63,16 +64,24 @@
         .seleccion{
             display: flex;
             border-radius: 50px;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 500;
             background-color: white;
             width: max-content;
             height: max-content;
+            @apply z-20;
             @apply mb-16;
             & a{
-                padding: 8px 50px;
+                padding: 8px 13px;
                 border-radius: 50px;
             }
+
+            @media (min-width:640px) {
+               & a{
+                padding: 8px 50px;
+               } 
+            }
+
             .noCheck{
                 background-color: white;
                 color: black;
@@ -87,6 +96,9 @@
 
     .cards{
         width: 100%;
+        @apply z-20;
+        box-shadow:  20px 20px 13px #bebebe;
+             border-radius: 40px;
     }
 
     .footer{
@@ -100,7 +112,8 @@
             font-family: 'Quicksand';
             font-weight: 400;
             font-size: 40px;
-
+            text-align: center;
+            line-height: 1;
             span{
                 font-weight: 700;
                 font-family: 'Quicksand';
@@ -108,6 +121,7 @@
         }
 
         .derechos{
+            margin-top: 10px;
             line-height: 1;
             font-weight: 300;
             font-size: 14px;

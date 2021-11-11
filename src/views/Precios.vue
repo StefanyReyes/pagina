@@ -4,9 +4,9 @@
     <div class="icono">
         <img src="https://res.cloudinary.com/dw21mdxqj/image/upload/v1635921766/elementos_de_marca_sr-08_mljsii.png" alt="Icono Muelas">
     </div>
-    <div class="logo">
+    <router-link to="/" class="logo">
       <img src="https://res.cloudinary.com/dw21mdxqj/image/upload/v1635919241/elementos_de_marca_sr-05_mjayqu.png" alt="Logo">
-    </div>
+    </router-link>
     <div class="saludo">
       <span>Un gusto saludarlo/a</span>
       <p>Dr. {{saludo}}</p>

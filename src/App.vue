@@ -1,5 +1,5 @@
 <template >
-  <div class="h-screen w-full ">
+  <div class="h-full w-full ">
     <router-view></router-view>
   </div>
   <div class="cargando" v-if="cargando">

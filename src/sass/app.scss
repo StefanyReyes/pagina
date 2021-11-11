@@ -25,7 +25,7 @@
     @apply flex-col;
     @apply justify-center;
     @apply items-center;
-    @apply h-full;
+    @apply h-screen;
     @apply w-full;
 
 
@@ -152,6 +152,7 @@
                 }
 
                 .info-precios{
+                    z-index: 1000;
                     @apply mt-6;
                     @apply flex;
                     @apply flex-col;

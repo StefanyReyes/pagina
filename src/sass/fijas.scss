@@ -1,4 +1,5 @@
     .fijas{
+        
         .hs {
             display: grid;
             grid-gap: 5px;
@@ -69,15 +70,19 @@
                         font-size: 25px;
                     }
                 }
-                
-                .quiero button{
+
+                .quiero{
                     margin-top: 40px;
-                    background-color:rgba(0, 0, 0, 0.068) ;
-                    border-radius: 50px;
-                    padding: 10px 25px;
-                    font-size: 15px;
-                    
+                    a{
+                        
+                        background-color:rgba(0, 0, 0, 0.068) ;
+                        border-radius: 50px;
+                        padding: 10px 25px;
+                        font-size: 15px;
+                        
+                    }
                 }
+                
                 
               }
 
