@@ -94,6 +94,16 @@
         
     }
 
+    .desliza{
+        display: flex;
+       font-size: 14px;
+       align-items: center;
+       margin-bottom: 40px;
+        svg{
+            margin-left: 5px;
+        }
+    }
+
     .cards{
         width: 100%;
         @apply z-20;

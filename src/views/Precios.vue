@@ -15,6 +15,12 @@
       <router-link @click="this.fondo=true" to="id/fijas" :class="check">PRÓTESIS FIJAS </router-link>
       <router-link @click="this.fondo = false" to="id/removibles" :class="check2">PRÓTESIS REMOVIBLES</router-link>
     </div>
+    <span class="desliza">
+        Desliza para ver más
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+      </svg>
+</span>
     <div class="cards">
       <router-view></router-view>
     </div>

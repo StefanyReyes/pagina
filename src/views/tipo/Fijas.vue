@@ -134,7 +134,7 @@ export default {
 
     computed:{
         mensaje(){
-            return "https://wa.me/573214661647/?text=Te amo mucho vida" + this.saber
+            return "https://wa.me/573214661647/?text=Stefany es la mejor jefe que he tenido en toda la vida si que si" + this.saber
         }
     }
 }

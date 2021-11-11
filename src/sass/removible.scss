@@ -1,0 +1,105 @@
+.removible{
+        
+    .hs {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1px;
+        grid-auto-flow: column;
+        grid-auto-columns: 300px;
+        overflow-x: scroll;
+        background-color: white;
+        border-radius: 40px;
+
+        .item {
+            padding: 30px 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+
+            h3{
+                font-size: 30px;
+                font-weight: 600;
+                color: #959595;
+                justify-content: space-between;
+                margin-bottom: 30px;
+            }
+
+            .punto{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                font-size: 15px;
+                font-weight:300;
+                .fila{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .lista{
+                        font-size: 14px;
+                        font-weight: 600;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: max-content;
+        
+                        svg{
+                            width: 20px;
+                            height: 20px;
+                            color: #C8C8C8;
+                            margin-right: 8px;
+                        }
+                    }
+                  
+                }
+            }
+
+            
+            .garantia{
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                font-size: 15px;
+                font-weight: 400;
+                color: #848199;
+                h4{
+                    color: #231D4F;
+                    font-weight: 200;
+                    font-size: 25px;
+                }
+            }
+
+            .quiero{
+                margin-top: 40px;
+                a{
+                    
+                    background-color:rgba(0, 0, 0, 0.068) ;
+                    border-radius: 50px;
+                    padding: 10px 25px;
+                    font-size: 15px;
+                    
+                }
+            }
+            
+            
+          }
+
+      }
+      
+      .hs:before,
+      .hs:after {
+        content: '';
+        width: 10px;
+      }
+
+      .no-scrollbar {
+        scrollbar-width: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+}
