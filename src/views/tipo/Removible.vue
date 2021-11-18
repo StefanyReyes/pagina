@@ -84,42 +84,6 @@ export default {
                             id:4, nombre:"Isosit", precio: "350.000"
                         },
                     ],
-                },
-                {
-                    id:3,
-                    titulo:"FLEXIBLES",
-                    item:[
-                        {
-                            id:1, nombre:"Biodent", precio: "$130.000"
-                        }, 
-                        {
-                            id:2, nombre:"Super C", precio: "$150.000"
-                        },
-                        {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
-                    ],
-                },
-                {
-                    id:3,
-                    titulo:"FLEXIBLES",
-                    item:[
-                        {
-                            id:1, nombre:"Biodent", precio: "$130.000"
-                        }, 
-                        {
-                            id:2, nombre:"Super C", precio: "$150.000"
-                        },
-                        {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
-                    ],
                 }
             ]
         }

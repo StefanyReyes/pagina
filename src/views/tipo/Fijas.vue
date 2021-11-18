@@ -33,74 +33,35 @@ export default {
             tarjetas:[
                 {
                     id:1,
-                    titulo:"ACRÍLICA",
+                    titulo:"CORONAS",
                     item:[
                         {
-                            id:1, nombre:"Biodent", precio: "$130.000"
+                            id:1, nombre:"Metal-ceramica", precio: "$110.000"
                         }, 
                         {
-                            id:2, nombre:"Super C", precio: "$150.000"
+                            id:2, nombre:"Circonio", precio: "$300.000"
                         },
                         {
-                            id:3, nombre:"Durantone", precio: "$170.000"
+                            id:3, nombre:"Disilicato", precio: "$250.000"
                         },
                         {
-                            id:4, nombre:"Isosit", precio: "350.000"
+                            id:4, nombre:"Monolitica", precio: "350.000"
                         },
                     ],
                 },
                 {
                     id:2,
-                    titulo:"PPR",
+                    titulo:"EMAX PRESS",
                     item:[
                         {
-                            id:1, nombre:"Biodent", precio: "$130.000"
+                            id:1, nombre:"Incrustación", precio: "$200.000"
                         }, 
                         {
-                            id:2, nombre:"Super C", precio: "$150.000"
+                            id:2, nombre:"Carilla monolitica", precio: "$200.000"
                         },
                         {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
-                    ],
-                },
-                {
-                    id:3,
-                    titulo:"FLEXIBLES",
-                    item:[
-                        {
-                            id:1, nombre:"Biodent", precio: "$130.000"
-                        }, 
-                        {
-                            id:2, nombre:"Super C", precio: "$150.000"
-                        },
-                        {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
-                    ],
-                },
-                {
-                    id:3,
-                    titulo:"FLEXIBLES",
-                    item:[
-                        {
-                            id:1, nombre:"Biodent", precio: "$130.000"
-                        }, 
-                        {
-                            id:2, nombre:"Super C", precio: "$150.000"
-                        },
-                        {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
+                            id:3, nombre:"Carilla estratificada", precio: "$230.000"
+                        }
                     ],
                 },
                 {
