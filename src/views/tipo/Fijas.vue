@@ -66,20 +66,17 @@ export default {
                 },
                 {
                     id:3,
-                    titulo:"FLEXIBLES",
+                    titulo:"COMPLEMENTADORES",
                     item:[
                         {
-                            id:1, nombre:"Biodent", precio: "$130.000"
+                            id:1, nombre:"Metal base", precio: "$40.000"
                         }, 
                         {
-                            id:2, nombre:"Super C", precio: "$150.000"
+                            id:2, nombre:"Oro (npg)", precio: "x Gramo"
                         },
                         {
-                            id:3, nombre:"Durantone", precio: "$170.000"
-                        },
-                        {
-                            id:4, nombre:"Isosit", precio: "350.000"
-                        },
+                            id:3, nombre:"Plata paladio", precio: "x Gramo"
+                        }
                     ],
                 }
             ]
