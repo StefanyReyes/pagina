@@ -86,7 +86,7 @@ export default {
 
     computed:{
         mensaje(){
-            return "https://wa.me/573214661647/?text=Stefany es la mejor jefe que he tenido en toda la vida si que si" + this.saber
+            return "https://wa.me/573214661647/?text=Estoy interesado/a en " + this.saber
         }
     }
 }
