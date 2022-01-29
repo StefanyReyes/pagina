@@ -39,13 +39,13 @@ export default {
                             id:1, nombre:"Metal-ceramica", precio: "$110.000"
                         }, 
                         {
-                            id:2, nombre:"Circonio", precio: "$300.000"
+                            id:2, nombre:"Circonio-ceramica", precio: "$300.000"
                         },
                         {
-                            id:3, nombre:"Disilicato", precio: "$250.000"
+                            id:3, nombre:"Disilicato-ceramica", precio: "$250.000"
                         },
                         {
-                            id:4, nombre:"Monolitica", precio: "350.000"
+                            id:4, nombre:"Disilicato-monolitica", precio: "$220.000"
                         },
                     ],
                 },
@@ -76,6 +76,48 @@ export default {
                         },
                         {
                             id:3, nombre:"Plata paladio", precio: "x Gramo"
+                        }
+                    ],
+                },
+                {
+                    id:4,
+                    titulo:"IMPLANTES",
+                    item:[
+                        {
+                            id:1, nombre:"P. de abutmen metálico", precio: "$40.000"
+                        }, 
+                        {
+                            id:2, nombre:"P. de ucla calcinable", precio: "$150.000"
+                        },
+                        {
+                            id:3, nombre:"Corona de cementar", precio: "$120.000"
+                        },
+                        {
+                            id:4, nombre:"Corona de atornillar", precio: "$150.000"
+                        }
+                    ],
+                },
+                {
+                    id:5,
+                    titulo:"TEMPORALES",
+                    item:[
+                        {
+                            id:1, nombre:"Temporal en autocurado", precio: "$25.000"
+                        }, 
+                        {
+                            id:2, nombre:"Temporal en termocurado", precio: "$30.000"
+                        },
+                        {
+                            id:3, nombre:"Placas de acetato", precio: "$30.000"
+                        },
+                        {
+                            id:4, nombre:"Plata de latex", precio: "$30.000"
+                        },
+                        {
+                            id:5, nombre:"Placas dobles", precio: "$60.000"
+                        },
+                        {
+                            id:5, nombre:"Encerado diagnóstico", precio: "$18.000"
                         }
                     ],
                 }
