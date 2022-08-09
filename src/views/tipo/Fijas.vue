@@ -36,16 +36,16 @@ export default {
                     titulo:"CORONAS",
                     item:[
                         {
-                            id:1, nombre:"Metal-ceramica", precio: "$110.000"
+                            id:1, nombre:"Metal-ceramica", precio: "$120.000"
                         }, 
                         {
-                            id:2, nombre:"Circonio-ceramica", precio: "$300.000"
+                            id:2, nombre:"Circonio-ceramica", precio: "$320.000"
                         },
                         {
                             id:3, nombre:"Disilicato-ceramica", precio: "$250.000"
                         },
                         {
-                            id:4, nombre:"Disilicato-monolitica", precio: "$220.000"
+                            id:4, nombre:"Disilicato-monolitica", precio: "$230.000"
                         },
                     ],
                 },
@@ -54,13 +54,13 @@ export default {
                     titulo:"EMAX PRESS",
                     item:[
                         {
-                            id:1, nombre:"Incrustación", precio: "$200.000"
+                            id:1, nombre:"Incrustación", precio: "$220.000"
                         }, 
                         {
-                            id:2, nombre:"Carilla monolitica", precio: "$200.000"
+                            id:2, nombre:"Carilla monolitica", precio: "$220.000"
                         },
                         {
-                            id:3, nombre:"Carilla estratificada", precio: "$230.000"
+                            id:3, nombre:"Carilla estratificada", precio: "$250.000"
                         }
                     ],
                 },
@@ -84,13 +84,13 @@ export default {
                     titulo:"IMPLANTES",
                     item:[
                         {
-                            id:1, nombre:"P. de abutmen metálico", precio: "$40.000"
+                            id:1, nombre:"P. de abutmen metálico", precio: "$50.000"
                         }, 
                         {
                             id:2, nombre:"P. de ucla calcinable", precio: "$150.000"
                         },
                         {
-                            id:3, nombre:"Corona de cementar", precio: "$120.000"
+                            id:3, nombre:"Corona de cementar", precio: "$130.000"
                         },
                         {
                             id:4, nombre:"Corona de atornillar", precio: "$150.000"
@@ -117,7 +117,7 @@ export default {
                             id:5, nombre:"Placas dobles", precio: "$60.000"
                         },
                         {
-                            id:5, nombre:"Encerado diagnóstico", precio: "$18.000"
+                            id:5, nombre:"Encerado diagnóstico", precio: "$20.000"
                         }
                     ],
                 }
